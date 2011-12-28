@@ -12,7 +12,7 @@
 			//Print a cell with the day number in it.  If it is today, highlight it.
 			print '<td';
 			if ($dayNum > 0 && $dayNum <= $dayTotal) {
-				print ($dayNum == $now['mday']) ? ' style="background: #ccc;">' : '>';
+				print ($dayNum == $now['mday']) ? ' style="background: #fcc;">' : '>';
 				print $dayNum;
 			}
 			else {
