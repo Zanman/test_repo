@@ -1,4 +1,6 @@
 <?php
+	//Kalender mit Monats-Blaetter-Funktion versehen!
+	
 	$now = getdate(time());
 	$time = mktime(0,0,0, $now['mon'], 1, $now['year']);
 	$date = getdate($time);
