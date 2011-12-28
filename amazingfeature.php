@@ -1,0 +1,5 @@
+<?php
+
+//an amazing example 
+
+?>
